@@ -1,0 +1,615 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="website.master.cs"  Inherits="Optima_HMS_Website.website" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WD339KKS21');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WPTXLRHX');
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="pt-4 pb-0 pb-lg-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="logosecc">
+                            <a href="/">
+                                <img src="images/logo.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="headinfo">
+                            <div class="inblock">
+                                <i class="fas fa-phone-alt"></i>
+                                <div class="conn">
+                                    <p class="mb-0 smallline">Call us at</p>
+                                    <h4 class="highline mb-0 mt-0"><a href="tel:8910063071">891-006-3071</a></h4>
+                                </div>
+                            </div>
+                            <div class="inblock">
+                                <i class="fas fa-envelope"></i>
+                                <div class="conn">
+                                    <p class="mb-0 smallline">Mail us at</p>
+                                    <h4 class="highline mb-0 mt-0"><a href="mailto:sales@yesoptima.com ">sales@yesoptima.com</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 btnrit">
+                        <a href="#" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#demomodd"><i class="far fa-arrow-right"></i>&nbsp;Get a Demo</a>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mainavsec">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" id="home" href="/"><i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="opd" href="outdoor-patient-management-software">OPD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="ipd" href="indoor-patient-management-software">IPD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="lis" href="laboratory-information-management-systems">LIS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="ris" href="radiology-management-software">RIS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pharmacy" href="pharmacy-billing-software">Pharmacy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="billing" aria-current="page" href="hospital-billing-software">Billing & TPA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="emr" href="electronic-medical-record-software">EMR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact" href="contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="pt-5 pb-5 demosecc">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h3 class="text-light mb-4">Contact<span class="text-success"> Us</span></h3>
+                    <div class="d-flex gap-3 box">
+                        <i class="text-success mb-3 fa fa-phone-alt"></i>
+                        <h5>
+                            <a class="transii" href="tel:8910063071">891-006-3071</a> &nbsp; |
+                            <a class="transii ms-2" href="https://wa.me/19433974649" target="_blank"><i class="fab fa-whatsapp ms-1"></i> 983-126-2730</a>
+                        </h5>
+                    </div>
+                    <div class="d-flex gap-3 box">
+                        <i class="text-success mb-3 fa fa-envelope"></i>
+                        <h5>
+                            <a class="d-block transii mb-2" href="mailto:shop@creote.com">dipankar@cludotechnology.in</a>
+                            <a class="mb-3 d-block transii" href="mailto:sales@yesoptima.com">sales@yesoptima.com</a>
+                        </h5>
+                    </div>
+                    <div class="d-flex gap-3 box">
+                        <i class="text-success mb-3 fa fa-globe"></i>
+                        <h5><a class="transii" href="https://cludotechnology.com" target="_blank">cludotechnology.com</a></h5>
+                    </div>
+                    <div class="d-flex gap-3 box">
+                        <i class="text-success mb-3 fa fa-map"></i>
+                        <h5>CLUDO Technology Consultants LLP, Module – 23, Phase – II. WEBEL IT Park, Durgapur, West Bengal</h5>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="text-light mb-3">Book a Demo<span class="text-success"> with Us</span></h3>
+                    <div style="border: solid 4px #e4e9ec96; background-color: #ffffff40;" class=" text-white  rounded-2 card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6 mb-3">
+                                        <label class="form-label">Name</label>
+
+                                        <asp:TextBox ID="txname" CssClass="form-control form-control-sm" runat="server"></asp:TextBox>
+                                    </div>
+                                <div class="col-lg-6 mb-3">
+                                    <label class="form-label">Phone</label>
+
+                                        <asp:TextBox ID="txphone" CssClass="form-control form-control-sm" runat="server"></asp:TextBox>
+
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                     <label class="form-label">Email</label>
+
+                                        <asp:TextBox ID="txemail" CssClass="form-control form-control-sm" runat="server"></asp:TextBox>
+
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                   <i class="fa fa-taxi iconn"></i>
+                                        <label class="form-label font-weight-bold text-2">What Service you are Interested for ?</label>
+
+
+                                        <asp:DropDownList ID="dlService" runat="server" CssClass="form-select">
+                                            <asp:ListItem>--SELECT--</asp:ListItem>
+                                            <asp:ListItem Text="OPTIMA HMS ERP" Value="Website Development"></asp:ListItem>
+                                            <asp:ListItem Text="OPTIMA Clinic Management" Value="Ecommerce Development"></asp:ListItem>
+                                            <asp:ListItem Text="OPTIMA LIS/RIS" Value="Wordpress Development"></asp:ListItem>
+                                            <asp:ListItem Text="OPTIMA Pharmacy" Value="Android App Development"></asp:ListItem>
+                                        </asp:DropDownList>
+
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                   <i class="fa fa-clock iconn"></i>
+                                        <label class="form-label font-weight-bold text-2 ">Preferred Time to Contact</label>
+
+                                        <asp:DropDownList ID="dlCnctTym" runat="server" CssClass="form-select">
+
+                                            <asp:ListItem Text="Any Time" Value="Any Time"></asp:ListItem>
+                                            <asp:ListItem Text="Morning" Value="Morning"></asp:ListItem>
+                                            <asp:ListItem Text="Afternoon" Value="Afternoon"></asp:ListItem>
+                                            <asp:ListItem Text="Evening" Value="Evening"></asp:ListItem>
+                                        </asp:DropDownList>
+
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                   <label class="form-label">Message</label>
+
+                                        <asp:TextBox ID="txmessage" CssClass="form-control form-control-sm" TextMode="MultiLine" runat="server"></asp:TextBox>
+
+
+                                </div>
+
+                                <%-- code for turnstile captcha--%>
+                                    <div class="col-lg-12 mb-3">
+
+                                       
+
+                                        <div class="checkbox mb-3">
+                                            <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-theme="light"></div>
+                                        </div>
+                                    </div>
+
+                                    <%--end--%>
+
+                                <div class="col-lg-3">
+                                     <button type="button" id="submitForm1" class="btn btn-lg btn-dark">Submit</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="pb-2 pt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <ul class="headlist list-unstyled d-flex mb-0">
+                            <li class="d-flex"><i class="fa fa-phone"></i><a href="tel:8910063071">891-006-3071</a></li>
+                            <li class="d-flex"><i class="fab fa-whatsapp"></i><a href="https://wa.me/19433974649" target="_blank">983-126-2730</a></li>
+                            <li class="d-flex"><i class="fa fa-envelope"></i><a href="mailto:sales@yesoptima.com ">sales@yesoptima.com</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <button onclick="topFunction()" id="arrowup"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function () {
+
+
+
+
+                var owl = $('#homebanner');
+                owl.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: true,
+                    autoplay: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    }
+                })
+            })
+        </script>
+        <script>
+            $(document).ready(function () {
+                var owl = $('#clientowl');
+                owl.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: true,
+                    autoplay: false,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    }
+                })
+            })
+        </script>
+        <script>
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 230 || document.documentElement.scrollTop > 230) {
+                    document.getElementById("arrowup").style.display = "block";
+                } else {
+                    document.getElementById("arrowup").style.display = "none";
+                }
+            }
+
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submitForm1").click(function (event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Clear previous error messages
+                $('.error-message').remove();
+
+                var isValid = true; // Flag to check form validity
+
+                // Fetch form values
+                var name = $("#<%= txname.ClientID %>").val().trim();
+            var phone = $("#<%= txphone.ClientID %>").val().trim();
+            var email = $("#<%= txemail.ClientID %>").val().trim();
+            var service = $("#<%= dlService.ClientID %> option:selected").text();
+            var contactTime = $("#<%= dlCnctTym.ClientID %> option:selected").text();
+            var message = $("#<%= txmessage.ClientID %>").val().trim();
+
+            // Basic form validation
+            if (name === "") {
+                displayErrorMessage("<%= txname.ClientID %>", "Please enter your name.");
+                isValid = false;
+            }
+            if (phone === "") {
+                displayErrorMessage("<%= txphone.ClientID %>", "Please enter your phone number.");
+                isValid = false;
+            }
+            if (email === "") {
+                displayErrorMessage("<%= txemail.ClientID %>", "Please enter your email.");
+                isValid = false;
+            }
+            if (service === "--SELECT--") {
+                displayErrorMessage("<%= dlService.ClientID %>", "Please select a service.");
+                isValid = false;
+            }
+            if (contactTime === "") {
+                displayErrorMessage("<%= dlCnctTym.ClientID %>", "Please select a preferred time to contact.");
+                isValid = false;
+            }
+            if (message === "") {
+                displayErrorMessage("<%= txmessage.ClientID %>", "Please enter a message.");
+                isValid = false;
+            }
+
+            if (isValid) {
+                // If the form is valid, send the email via AJAX
+                $.ajax({
+                    type: "POST",
+                    url: "default.aspx/SendEmail",
+                    data: JSON.stringify({
+                        name: name,
+                        phone: phone,
+                        email: email,
+                        service: service,
+                        contactTime: contactTime,
+                        message: message
+                    }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response.d === "success") {
+                            alert("Email sent successfully.");
+                            // Clear the form fields
+                            clearFormFields();
+                        } else {
+                            alert("Failed to send email.");
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert("An error occurred: " + error);
+                    }
+                });
+            }
+        });
+
+        // Function to display error messages
+        function displayErrorMessage(elementId, message) {
+            var element = $("#" + elementId);
+            var errorMessage = $('<div class="error-message text-danger"></div>').text(message);
+            element.after(errorMessage); // Insert error message after the input field
+        }
+
+        // Function to clear form fields and error messages
+        function clearFormFields() {
+            $("#<%= txname.ClientID %>").val('');
+            $("#<%= txphone.ClientID %>").val('');
+            $("#<%= txemail.ClientID %>").val('');
+            $("#<%= dlService.ClientID %>").val('--SELECT--');
+            $("#<%= dlCnctTym.ClientID %>").val('Any Time');
+            $("#<%= txmessage.ClientID %>").val('');
+            $('.error-message').remove(); // Clear error messages
+        }
+    });
+    </script>
+
+
+        <div class="modal fade" id="demomodd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content modalbac rounded-3 border border-primary border-0 border-4 border-top">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
+                        <h3 class="text-primary mb-2 text-center">Book a Demo</h3>
+                        <hr class="mb-5 opacity-100 bg-primary" />
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                     <span class="bg-primary text-white input-group-text"><i class="fa fa-user"></i></span>
+                                    <input type="text" id="txtn_name" class="form-control border-primary" placeholder="Enter Your Name">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                    <span class="bg-primary text-white input-group-text"><i class="fa fa-phone-alt"></i></span>
+                                    <input type="text" id="txtn_phone" class="form-control border-primary" placeholder="Enter Your Phone No.">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                   <span class="bg-primary text-white input-group-text"><i class="fa fa-envelope"></i></span>
+                                    <input type="text" id="txtn_email" class="form-control border-primary" placeholder="Enter Your Email">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                    <span class="bg-primary text-white input-group-text"><i class="fa fa-taxi"></i></span>
+                                    <asp:DropDownList ID="ddl_Service" runat="server" CssClass="form-control border-primary">
+                                        <asp:ListItem Text=" Service Interested For " Value="" Enabled="true"></asp:ListItem>
+                                        <asp:ListItem Text="OPTIMA HMS ERP" Value="Website Development"></asp:ListItem>
+                                        <asp:ListItem Text="OPTIMA Clinic Management" Value="Ecommerce Development"></asp:ListItem>
+                                        <asp:ListItem Text="OPTIMA LIS/RIS" Value="Wordpress Development"></asp:ListItem>
+                                        <asp:ListItem Text="OPTIMA Pharmacy" Value="Android App Development"></asp:ListItem>
+                                    </asp:DropDownList>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                   <span class="bg-primary text-white input-group-text"><i class="fa fa-clock"></i></span>
+                                    <asp:DropDownList ID="ddl_CnctTym" runat="server" CssClass="form-control border-primary">
+                                        <asp:ListItem Text="Preferred Time to Contact" Value="" Enabled="true"></asp:ListItem>
+                                        <asp:ListItem Text="Any Time" Value="Any Time"></asp:ListItem>
+                                        <asp:ListItem Text="Morning" Value="Morning"></asp:ListItem>
+                                        <asp:ListItem Text="Afternoon" Value="Afternoon"></asp:ListItem>
+                                        <asp:ListItem Text="Evening" Value="Evening"></asp:ListItem>
+                                    </asp:DropDownList>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group mb-3">
+                                    <span class="bg-primary text-white input-group-text"><i class="fas fa-sticky-note"></i></span>
+                                    <textarea class="form-control border-primary" id="txt_message" placeholder="Enter Your Message"></textarea>
+
+                                </div>
+                            </div>
+
+                            <%--code for turnstile captcha--%>
+                            <div class="col-lg-12 mb-3">
+
+                               
+
+                                <div class="checkbox mb-3">
+                                    <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-theme="light"></div>
+                                </div>
+
+                               <%-- end--%>
+
+                            <div class="col-lg-12 mt-5 text-center">
+                               <button type="submit" id="formSumbit" class="btn btn-lg btn-primary">Submit</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#formSumbit").click(function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                // Get field values
+                var name = $("#txtn_name").val();
+                var phone = $("#txtn_phone").val();
+                var email = $("#txtn_email").val();
+                var service = $("#ddl_Service option:selected").val();
+                var contactTime = $("#ddl_CnctTym option:selected").val();
+                var message = $("#txt_message").val();
+
+                var hasError = false;
+
+                // Clear previous error messages
+                $(".error-msg").remove();
+
+                // Validate each field and show specific error messages
+                if (!name) {
+                    $("#txtn_name").after('<span class="error-msg text-danger">Please enter your name.</span>');
+                    hasError = true;
+                }
+
+                if (!phone) {
+                    $("#txtn_phone").after('<span class="error-msg text-danger">Please enter your phone number.</span>');
+                    hasError = true;
+                }
+
+                if (!email) {
+                    $("#txtn_email").after('<span class="error-msg text-danger">Please enter your email.</span>');
+                    hasError = true;
+                }
+
+                if (!service) {
+                    $("#ddl_Service").after('<span class="error-msg text-danger">Please select a service.</span>');
+                    hasError = true;
+                }
+
+                if (!contactTime) {
+                    $("#ddl_CnctTym").after('<span class="error-msg text-danger">Please select a preferred contact time.</span>');
+                    hasError = true;
+                }
+
+                if (!message) {
+                    $("#txt_message").after('<span class="error-msg text-danger">Please enter a message.</span>');
+                    hasError = true;
+                }
+
+                // If there are errors, stop the submission
+                if (hasError) {
+                    return;
+                }
+
+                // Proceed with the AJAX request if validation passes
+                $.ajax({
+                    type: "POST",
+                    url: "default.aspx/SendEmail",
+                    data: JSON.stringify({
+                        name: name,
+                        phone: phone,
+                        email: email,
+                        service: service,
+                        contactTime: contactTime,
+                        message: message
+                    }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response.d === "success") {
+                            alert("Email sent successfully.");
+
+                            // Clear fields on success
+                            $("#txtn_name").val('');
+                            $("#txtn_phone").val('');
+                            $("#txtn_email").val('');
+                            $("#ddl_Service").prop('selectedIndex', 0);
+                            $("#ddl_CnctTym").prop('selectedIndex', 0);
+                            $("#txt_message").val('');
+
+                            // Clear error messages
+                            $(".error-msg").remove();
+                        } else {
+                            alert("Failed to send email.");
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert("An error occurred: " + error);
+                    }
+                });
+            });
+        });
+    </script>
+
+   
+    
+   
+
+
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script>
+
+        function _turnstileCb() {
+            console.debug('_turnstileCb called');
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>

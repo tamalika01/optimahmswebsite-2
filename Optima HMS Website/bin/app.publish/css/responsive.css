@@ -1,0 +1,96 @@
+/* CSS Document */
+
+@media screen and (max-width: 1399.2px) {
+	
+.coninfoo .boxx{height: 205px;}
+.sinbox{height: 630px;}
+.leavecustomsec .devsec .piic .secpic{margin-left: 50px;}
+.leavecustomsec .cont{padding-left: 80px;}
+.leavecustomsec .devsec.alter .piic .secpic {margin-left: -50px;}
+.leavecustomsec .alter .cont{padding-right: 80px;}
+
+}
+
+@media screen and (max-width: 1199px) {
+
+.picpadd.alterr{padding:0;}
+.picpadd{margin-bottom: 30px; padding:0;}
+.sinbox{height: 730px;}
+.leavecustomsec .cont {padding-left: 50px;}
+.leavecustomsec .devsec .piic .secpic {width: 400px; height: 250px;}
+.leavecustomsec .alter .cont{padding-right: 50px;}
+.contactsecc .contactinfoo{grid-column-gap: 4%;}
+.contactsecc .ritside {padding-left: 10px;}
+
+}
+
+@media screen and (max-width: 991.2px) {
+	
+header .logosecc img{z-index: 2; position: relative;}
+header .headinfo{grid-template-columns: 100%; grid-column-gap: 0; margin-top: 20px;}
+header .headinfo .inblock{border-right:none; border-bottom: solid 1px #d8d2d2; margin-bottom: 6px; padding-bottom: 6px;}
+header .headinfo .inblock:last-child{border-bottom: none; padding-bottom: 0; margin-bottom: 0;}
+header .headinfo .inblock .highline{font-size: 20px;}
+header .btnrit{text-align: center; margin-top: 20px; display: flex; justify-content: space-between;}
+header .btnrit .btn{padding: 10px;font-size: 17px;}
+header .follow {display: inline-block !important;}
+.mainavsec{position: absolute;top: 40px;right: 0;width: 100%;}
+.mainavsec .navbar{background-color: transparent;}
+.mainavsec .navbar .navbar-collapse{margin-top: 20px; z-index: 2;}
+.mainavsec .navbar .navbar-nav{background: #cdf2fd; filter: drop-shadow(4px 8px 10px #00000021);}
+.mainavsec .navbar .nav-link{padding-right: 0; padding-left: 0; font-size: 18px; border-bottom: solid 1px #9fd8e9; margin-left: 10px; margin-right: 10px;}
+.mainavsec .navbar-toggler{background-color: #036582;}
+.mainavsec .navbar-light .navbar-toggler-icon{background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,255,255,255.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+.banbook .homeslide .dispp .titlename{font-size: 35px;}
+.welcomesec .picbox{margin-left:15px; margin-top: 20px;}
+.officeinfosec .inbox{padding-left: 14px;}
+.coninfoo .boxx{height: auto; margin-bottom: 60px;}
+.coninfoo{padding-bottom:0;}
+.mapformbox .backlay{grid-template-columns: 100%;}
+.mapformbox .backlay .mapbox iframe{margin-left: 0;}
+.mapformbox .backlay .formm{padding: 20px; margin-top: 20px;}
+.sinbox{height: auto;}
+.leavecustomsec .devsec{grid-template-columns: 100%;}
+.leavecustomsec .cont{margin-top: 30px; padding-left:0;}
+.leavecustomsec .devsec .piic .secpic {margin-left: 0; margin-top: -50px;}
+.leavecustomsec .devsec .piic .secpic{width: 100%; height: auto;}
+.leavecustomsec .devsec.alter .piic .secpic {margin-left: 0;}
+.leavecustomsec .alter .cont{order:1; padding-right: 0; margin-bottom: 40px;}
+.listgrid{grid-template-columns: 100%; grid-column-gap: 0;}
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+.banbook .homeslide .dispp{grid-template-columns: 100%; grid-column-gap: 0;}
+.banbook .homeslide .dispp .titlename{font-size: 26px;}
+.clientsec{grid-template-columns: 100%; grid-column-gap: 0;}
+.featsec ul {padding-left: 12px;}
+.extrasec .hedbodd{font-size: 17px;line-height: 24px;}
+.extrasec .list-inline-item{width:100%;}
+footer .headlist{display:block !important;}
+.sinbox{display: block; margin-top: 70px; margin-left: 0;}
+.sinbox .smallbox{left: 50%; top: 0; transform: translate(-50%,-50%);}
+.sinbox .contsec{padding-left: 0; padding-top: 65px;}
+.contactsecc .ritside{padding-left: 0;}
+.ipdfeatbox .singlesec i{width: 50px; height: 50px; line-height: 40px; font-size: 18px;}
+.labgrid li{display: block !important;}
+.labgrid label{width: 100%; margin-bottom: 5px;}
+
+}
+
+@media screen and (max-width: 575.2px) {
+
+body{font-size:15px;}
+.modal .btn-close{right: -4px; top: -11px; width: 32px; height: 32px; line-height: 32px;}
+.conbreadsec .lead{font-size: 17px;margin-top: 20px;}
+.conbreadsec .breadtitle{font-size:25px;}
+.leavecustomsec .devsec .piic .secpic{padding:8px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+}
+

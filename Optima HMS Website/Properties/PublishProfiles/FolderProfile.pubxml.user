@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Office Work\Project Work\optimahms\Optima HMS Website\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2024-08-16T12:19:46.9342240Z;True|2024-08-16T17:30:52.9703059+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Optima HMS Website.dll">
+      <publishTime>08/16/2024 17:49:45</publishTime>
+    </File>
+    <File Include="bin/Optima HMS Website.pdb">
+      <publishTime>08/16/2024 17:49:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="btpa.aspx">
+      <publishTime>08/16/2024 17:25:51</publishTime>
+    </File>
+    <File Include="cnt.aspx">
+      <publishTime>08/16/2024 17:26:03</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="css/fontawesome.min.css">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="css/owl.carousel.min.css">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="css/owl.theme.default.min.css">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/16/2024 16:35:50</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>08/16/2024 17:48:11</publishTime>
+    </File>
+    <File Include="emr.aspx">
+      <publishTime>08/16/2024 17:26:25</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400.ttf">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-brands-400d41d.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900.ttf">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-duotone-900d41d.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300.ttf">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-light-300d41d.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400.ttf">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-regular-400d41d.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900.ttf">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/fa-solid-900d41d.eot">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/ubuntu-regular-webfont.woff">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="fonts/ubuntu-regular-webfont.woff2">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/16/2024 14:26:08</publishTime>
+    </File>
+    <File Include="images/a1.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/a2.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/a3.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/a4.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/a5.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/backpic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/ban1.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/ban2.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/bggbac.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/bgpic.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/billingpic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl1.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl10.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl11.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl12.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl13.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl14.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl15.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl16.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl17.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl2.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl3.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl4.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl5.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl6.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl7.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl8.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/cl9.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/conban.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/emrpic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/exppic.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/android-chrome-192x192.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/android-chrome-256x256.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/apple-touch-icon.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/browserconfig.xml">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/favicon-16x16.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/favicon-32x32.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/favicon.ico">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/mstile-150x150.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/safari-pinned-tab.svg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/favicon/site.webmanifest">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/hpic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/ipdbacfeat.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/ipdpic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/lispic.png">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/lispicin.jpg">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="images/lispicout.jpg">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/opdbanpic.jpg">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/opdpic.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/opdpic2.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/pharmacypic.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/picsky.jpg">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/rispic.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/tpapic.png">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/welpic.jpg">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="images/whittexture.jpg">
+      <publishTime>08/16/2024 14:29:08</publishTime>
+    </File>
+    <File Include="ipd.aspx">
+      <publishTime>08/16/2024 17:26:34</publishTime>
+    </File>
+    <File Include="js/bootstrap.bundle.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="js/bootstrap.bundle.min.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="js/jquery-3.7.1.min.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="js/owl.carousel.js">
+      <publishTime>08/16/2024 14:29:07</publishTime>
+    </File>
+    <File Include="lis.aspx">
+      <publishTime>08/16/2024 17:26:46</publishTime>
+    </File>
+    <File Include="opd.aspx">
+      <publishTime>08/16/2024 17:20:17</publishTime>
+    </File>
+    <File Include="pharmacy.aspx">
+      <publishTime>08/16/2024 17:26:58</publishTime>
+    </File>
+    <File Include="ris.aspx">
+      <publishTime>08/16/2024 17:27:13</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/16/2024 17:30:52</publishTime>
+    </File>
+    <File Include="website.Master">
+      <publishTime>08/16/2024 17:48:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
